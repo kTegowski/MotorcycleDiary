@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0AE4702989B2E7002047C2 /* newMotorcycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AE46F2989B2E7002047C2 /* newMotorcycleView.swift */; };
+		9B1E88CA2981BBE000160A51 /* motorcycleDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E88C92981BBE000160A51 /* motorcycleDiaryApp.swift */; };
+		9B1E88CE2981BBE100160A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1E88CD2981BBE100160A51 /* Assets.xcassets */; };
+		9B1E88D12981BBE100160A51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1E88D02981BBE100160A51 /* Preview Assets.xcassets */; };
+		9B1E88DB2981BBE100160A51 /* motorcycleDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E88DA2981BBE100160A51 /* motorcycleDiaryTests.swift */; };
+		9B1E88E52981BBE100160A51 /* motorcycleDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E88E42981BBE100160A51 /* motorcycleDiaryUITests.swift */; };
+		9B1E88E72981BBE100160A51 /* motorcycleDiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E88E62981BBE100160A51 /* motorcycleDiaryUITestsLaunchTests.swift */; };
+		9B1E88F52981CD0700160A51 /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E88F42981CD0700160A51 /* Motorcycle.swift */; };
+		9B1E88F92981CDDB00160A51 /* MotorcycleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E88F82981CDDB00160A51 /* MotorcycleType.swift */; };
+		9B1E88FC2981D18000160A51 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E88FB2981D18000160A51 /* MainView.swift */; };
+		9B1E89002981D2FA00160A51 /* BasicInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E88FF2981D2FA00160A51 /* BasicInfoView.swift */; };
+		9B1E89042981DE0800160A51 /* motoPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1E89032981DE0800160A51 /* motoPhoto.png */; };
+		9B1E89062981E5DC00160A51 /* AddIncident.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E89052981E5DC00160A51 /* AddIncident.swift */; };
+		9B1E89082981E78D00160A51 /* MotorcycleCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E89072981E78D00160A51 /* MotorcycleCalendar.swift */; };
+		9B1E890A2981E89500160A51 /* IntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E89092981E89500160A51 /* IntervalView.swift */; };
+		9B1E890C2981EA7A00160A51 /* millageChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E890B2981EA7A00160A51 /* millageChartView.swift */; };
+		9B7918B3298959710051FB43 /* MachineStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7918B2298959710051FB43 /* MachineStateView.swift */; };
+		9BA22D6A29829375007C71DE /* Incident.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA22D6929829375007C71DE /* Incident.swift */; };
+		9BC823C7298ABFF400C21E23 /* DecisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC823C6298ABFF400C21E23 /* DecisionView.swift */; };
+		9BF2639C29845B5B003FB4FC /* IntervalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2639B29845B5B003FB4FC /* IntervalModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B1E88D72981BBE100160A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B1E88BE2981BBE000160A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B1E88C52981BBE000160A51;
+			remoteInfo = APIOS_projekt;
+		};
+		9B1E88E12981BBE100160A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B1E88BE2981BBE000160A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B1E88C52981BBE000160A51;
+			remoteInfo = APIOS_projekt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B0AE46F2989B2E7002047C2 /* newMotorcycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newMotorcycleView.swift; sourceTree = "<group>"; };
+		9B1E88C62981BBE000160A51 /* motorcycleDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motorcycleDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1E88C92981BBE000160A51 /* motorcycleDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motorcycleDiaryApp.swift; sourceTree = "<group>"; };
+		9B1E88CD2981BBE100160A51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B1E88D02981BBE100160A51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B1E88D62981BBE100160A51 /* motorcycleDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motorcycleDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1E88DA2981BBE100160A51 /* motorcycleDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motorcycleDiaryTests.swift; sourceTree = "<group>"; };
+		9B1E88E02981BBE100160A51 /* motorcycleDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motorcycleDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1E88E42981BBE100160A51 /* motorcycleDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motorcycleDiaryUITests.swift; sourceTree = "<group>"; };
+		9B1E88E62981BBE100160A51 /* motorcycleDiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motorcycleDiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B1E88F42981CD0700160A51 /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		9B1E88F82981CDDB00160A51 /* MotorcycleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleType.swift; sourceTree = "<group>"; };
+		9B1E88FB2981D18000160A51 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9B1E88FF2981D2FA00160A51 /* BasicInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInfoView.swift; sourceTree = "<group>"; };
+		9B1E89032981DE0800160A51 /* motoPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = motoPhoto.png; sourceTree = "<group>"; };
+		9B1E89052981E5DC00160A51 /* AddIncident.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIncident.swift; sourceTree = "<group>"; };
+		9B1E89072981E78D00160A51 /* MotorcycleCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleCalendar.swift; sourceTree = "<group>"; };
+		9B1E89092981E89500160A51 /* IntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalView.swift; sourceTree = "<group>"; };
+		9B1E890B2981EA7A00160A51 /* millageChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = millageChartView.swift; sourceTree = "<group>"; };
+		9B7918B2298959710051FB43 /* MachineStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineStateView.swift; sourceTree = "<group>"; };
+		9BA22D6929829375007C71DE /* Incident.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incident.swift; sourceTree = "<group>"; };
+		9BC823C6298ABFF400C21E23 /* DecisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionView.swift; sourceTree = "<group>"; };
+		9BC823C8298AE03F00C21E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9BF2639B29845B5B003FB4FC /* IntervalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B1E88C32981BBE000160A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1E88D32981BBE100160A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1E88DD2981BBE100160A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B1E88BD2981BBE000160A51 = {
+			isa = PBXGroup;
+			children = (
+				9B1E88C82981BBE000160A51 /* motorcycleDiary */,
+				9B1E88D92981BBE100160A51 /* motorcycleDiaryTests */,
+				9B1E88E32981BBE100160A51 /* motorcycleDiaryUITests */,
+				9B1E88C72981BBE000160A51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B1E88C72981BBE000160A51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E88C62981BBE000160A51 /* motorcycleDiary.app */,
+				9B1E88D62981BBE100160A51 /* motorcycleDiaryTests.xctest */,
+				9B1E88E02981BBE100160A51 /* motorcycleDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B1E88C82981BBE000160A51 /* motorcycleDiary */ = {
+			isa = PBXGroup;
+			children = (
+				9BC823C8298AE03F00C21E23 /* Info.plist */,
+				9B1E88FA2981D16800160A51 /* ViewModel */,
+				9B1E88F32981CCF200160A51 /* Model */,
+				9B1E88C92981BBE000160A51 /* motorcycleDiaryApp.swift */,
+				9B1E88CD2981BBE100160A51 /* Assets.xcassets */,
+				9B1E89032981DE0800160A51 /* motoPhoto.png */,
+				9B1E88CF2981BBE100160A51 /* Preview Content */,
+			);
+			path = motorcycleDiary;
+			sourceTree = "<group>";
+		};
+		9B1E88CF2981BBE100160A51 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E88D02981BBE100160A51 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B1E88D92981BBE100160A51 /* motorcycleDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E88DA2981BBE100160A51 /* motorcycleDiaryTests.swift */,
+			);
+			path = motorcycleDiaryTests;
+			sourceTree = "<group>";
+		};
+		9B1E88E32981BBE100160A51 /* motorcycleDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E88E42981BBE100160A51 /* motorcycleDiaryUITests.swift */,
+				9B1E88E62981BBE100160A51 /* motorcycleDiaryUITestsLaunchTests.swift */,
+			);
+			path = motorcycleDiaryUITests;
+			sourceTree = "<group>";
+		};
+		9B1E88F32981CCF200160A51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E88F42981CD0700160A51 /* Motorcycle.swift */,
+				9B1E88F82981CDDB00160A51 /* MotorcycleType.swift */,
+				9BA22D6929829375007C71DE /* Incident.swift */,
+				9BF2639B29845B5B003FB4FC /* IntervalModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B1E88FA2981D16800160A51 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B7918B1298959590051FB43 /* MachineState */,
+				9B1E88FB2981D18000160A51 /* MainView.swift */,
+				9B1E88FF2981D2FA00160A51 /* BasicInfoView.swift */,
+				9B1E89052981E5DC00160A51 /* AddIncident.swift */,
+				9B1E89072981E78D00160A51 /* MotorcycleCalendar.swift */,
+				9B1E89092981E89500160A51 /* IntervalView.swift */,
+				9B1E890B2981EA7A00160A51 /* millageChartView.swift */,
+				9B0AE46F2989B2E7002047C2 /* newMotorcycleView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9B7918B1298959590051FB43 /* MachineState */ = {
+			isa = PBXGroup;
+			children = (
+				9B7918B2298959710051FB43 /* MachineStateView.swift */,
+				9BC823C6298ABFF400C21E23 /* DecisionView.swift */,
+			);
+			path = MachineState;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B1E88C52981BBE000160A51 /* motorcycleDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1E88EA2981BBE100160A51 /* Build configuration list for PBXNativeTarget "motorcycleDiary" */;
+			buildPhases = (
+				9B1E88C22981BBE000160A51 /* Sources */,
+				9B1E88C32981BBE000160A51 /* Frameworks */,
+				9B1E88C42981BBE000160A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = motorcycleDiary;
+			productName = APIOS_projekt;
+			productReference = 9B1E88C62981BBE000160A51 /* motorcycleDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B1E88D52981BBE100160A51 /* motorcycleDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1E88ED2981BBE100160A51 /* Build configuration list for PBXNativeTarget "motorcycleDiaryTests" */;
+			buildPhases = (
+				9B1E88D22981BBE100160A51 /* Sources */,
+				9B1E88D32981BBE100160A51 /* Frameworks */,
+				9B1E88D42981BBE100160A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B1E88D82981BBE100160A51 /* PBXTargetDependency */,
+			);
+			name = motorcycleDiaryTests;
+			productName = APIOS_projektTests;
+			productReference = 9B1E88D62981BBE100160A51 /* motorcycleDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B1E88DF2981BBE100160A51 /* motorcycleDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1E88F02981BBE100160A51 /* Build configuration list for PBXNativeTarget "motorcycleDiaryUITests" */;
+			buildPhases = (
+				9B1E88DC2981BBE100160A51 /* Sources */,
+				9B1E88DD2981BBE100160A51 /* Frameworks */,
+				9B1E88DE2981BBE100160A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B1E88E22981BBE100160A51 /* PBXTargetDependency */,
+			);
+			name = motorcycleDiaryUITests;
+			productName = APIOS_projektUITests;
+			productReference = 9B1E88E02981BBE100160A51 /* motorcycleDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B1E88BE2981BBE000160A51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9B1E88C52981BBE000160A51 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9B1E88D52981BBE100160A51 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9B1E88C52981BBE000160A51;
+					};
+					9B1E88DF2981BBE100160A51 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9B1E88C52981BBE000160A51;
+					};
+				};
+			};
+			buildConfigurationList = 9B1E88C12981BBE000160A51 /* Build configuration list for PBXProject "motorcycleDiary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B1E88BD2981BBE000160A51;
+			productRefGroup = 9B1E88C72981BBE000160A51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B1E88C52981BBE000160A51 /* motorcycleDiary */,
+				9B1E88D52981BBE100160A51 /* motorcycleDiaryTests */,
+				9B1E88DF2981BBE100160A51 /* motorcycleDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B1E88C42981BBE000160A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1E88D12981BBE100160A51 /* Preview Assets.xcassets in Resources */,
+				9B1E88CE2981BBE100160A51 /* Assets.xcassets in Resources */,
+				9B1E89042981DE0800160A51 /* motoPhoto.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1E88D42981BBE100160A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1E88DE2981BBE100160A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B1E88C22981BBE000160A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7918B3298959710051FB43 /* MachineStateView.swift in Sources */,
+				9BA22D6A29829375007C71DE /* Incident.swift in Sources */,
+				9B1E890A2981E89500160A51 /* IntervalView.swift in Sources */,
+				9B1E890C2981EA7A00160A51 /* millageChartView.swift in Sources */,
+				9B1E89002981D2FA00160A51 /* BasicInfoView.swift in Sources */,
+				9B1E88F52981CD0700160A51 /* Motorcycle.swift in Sources */,
+				9B1E88F92981CDDB00160A51 /* MotorcycleType.swift in Sources */,
+				9B1E88FC2981D18000160A51 /* MainView.swift in Sources */,
+				9BF2639C29845B5B003FB4FC /* IntervalModel.swift in Sources */,
+				9B0AE4702989B2E7002047C2 /* newMotorcycleView.swift in Sources */,
+				9B1E89062981E5DC00160A51 /* AddIncident.swift in Sources */,
+				9B1E89082981E78D00160A51 /* MotorcycleCalendar.swift in Sources */,
+				9B1E88CA2981BBE000160A51 /* motorcycleDiaryApp.swift in Sources */,
+				9BC823C7298ABFF400C21E23 /* DecisionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1E88D22981BBE100160A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1E88DB2981BBE100160A51 /* motorcycleDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1E88DC2981BBE100160A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1E88E52981BBE100160A51 /* motorcycleDiaryUITests.swift in Sources */,
+				9B1E88E72981BBE100160A51 /* motorcycleDiaryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B1E88D82981BBE100160A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B1E88C52981BBE000160A51 /* motorcycleDiary */;
+			targetProxy = 9B1E88D72981BBE100160A51 /* PBXContainerItemProxy */;
+		};
+		9B1E88E22981BBE100160A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B1E88C52981BBE000160A51 /* motorcycleDiary */;
+			targetProxy = 9B1E88E12981BBE100160A51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B1E88E82981BBE100160A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B1E88E92981BBE100160A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B1E88EB2981BBE100160A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"motorcycleDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = HY8YCU6K84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = motorcycleDiary/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pw.APIOS-projekt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B1E88EC2981BBE100160A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"motorcycleDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = HY8YCU6K84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = motorcycleDiary/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pw.APIOS-projekt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B1E88EE2981BBE100160A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY8YCU6K84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pw.APIOS-projektTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motorcycleDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/motorcycleDiary";
+			};
+			name = Debug;
+		};
+		9B1E88EF2981BBE100160A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY8YCU6K84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pw.APIOS-projektTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motorcycleDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/motorcycleDiary";
+			};
+			name = Release;
+		};
+		9B1E88F12981BBE100160A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY8YCU6K84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pw.APIOS-projektUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = APIOS_projekt;
+			};
+			name = Debug;
+		};
+		9B1E88F22981BBE100160A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY8YCU6K84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pw.APIOS-projektUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = APIOS_projekt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B1E88C12981BBE000160A51 /* Build configuration list for PBXProject "motorcycleDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1E88E82981BBE100160A51 /* Debug */,
+				9B1E88E92981BBE100160A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1E88EA2981BBE100160A51 /* Build configuration list for PBXNativeTarget "motorcycleDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1E88EB2981BBE100160A51 /* Debug */,
+				9B1E88EC2981BBE100160A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1E88ED2981BBE100160A51 /* Build configuration list for PBXNativeTarget "motorcycleDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1E88EE2981BBE100160A51 /* Debug */,
+				9B1E88EF2981BBE100160A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1E88F02981BBE100160A51 /* Build configuration list for PBXNativeTarget "motorcycleDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1E88F12981BBE100160A51 /* Debug */,
+				9B1E88F22981BBE100160A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B1E88BE2981BBE000160A51 /* Project object */;
+}
